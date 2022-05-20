@@ -1,0 +1,19 @@
+body{
+    /* background-color: rgb(117, 99, 117);
+    border: 0px 0px 0px 0px; */
+    /* margin: 0px 0px 0px 0px; */
+    font-family: 'Source Serif Pro', serif;
+}
+p{
+    font-size: 12px;
+    border: 1px solid red;
+    margin: 0px 0px 0px 0px;
+
+
+}
+div{
+    width: 640px;
+    height: 700px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    font-style: oblique;}

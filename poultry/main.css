@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 30px;
+    position: relative;
+
+}
+.container .contain{
+    position: relative;
+    z-index: 5;
+}
+.container:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(backs.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    z-index: 2;
+}
+h1{
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: bolder;
+    font-size:xx-large;
+    margin-top: 32px;
+    
+}
+tr{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+tr img{
+    width: 50%;
+    height: 50px;
+    border-radius: 50%;
+}
+th{
+    word-spacing: 24px;
+
+}
