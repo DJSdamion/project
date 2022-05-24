@@ -73,7 +73,9 @@
 margin-top: 50px;
 /* padding: 10px 10px; */
 }
-
+.offer a{
+    margin-top: 20px;
+}
 img{
     margin: 0 auto;
     width: 70%;
@@ -87,13 +89,23 @@ img{
     font-size: 20px;
     color: white;
 }
-.offers1, .offers2, .offers3{
+.offers2{
     border: 4px solid #e45826;
+    height: 500px;
+    text-align: center;
+}
+.offers1{
+    border: 4px solid #fdfcfc;
+    height: 500px;
+}
+.offers3{
+    border: 4px solid #fffdfc;
     height: 500px;
 }
 .space{
     margin-top: 38px;
 }
+
 .grid-4-columns{
     width: 95%;
     margin: auto;
@@ -119,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p{
 a{
     text-decoration: none;
     margin-top: 20px;
-    padding: 10px 10px;
+    padding: 14px 90px;
     background-color: #e45826;
     color: white;
 }
@@ -138,14 +150,19 @@ a{
 }
 .tes img{
     margin: auto;
-    clip-path: circle(50.0% at 50% 50%) !important;
+    /* clip-path: circle(50.0% at 50% 50%) !important; */
     width: 20%;
+    height: 35%;
+    /* margin-top: 24px; */
+    border-radius: 100%;
 }
 .tes{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 10px;
+    font-size: 14px;
+    font-style: italic;
 }
 .tes{
     padding: auto;
@@ -154,6 +171,7 @@ a{
 .t{
     background-color: #f8f5f1;
     text-align: center;
+
     /* padding: 20px; */
 }
 .e{
@@ -207,6 +225,8 @@ a{
     row-gap: 40px;
     margin-top: 40px;
     padding: auto;
+    background-color: #f8f5f1;
+
 }
 .final li{
     color: #e45826;
